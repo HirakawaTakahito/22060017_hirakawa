@@ -1,0 +1,27 @@
+{
+  "name": "22060017_hirakawa",
+  "version": "1.0.0",
+  "description": "aaaaaa",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HirakawaTakahito/22060017_hirakawa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HirakawaTakahito/22060017_hirakawa/issues"
+  },
+  "homepage": "https://github.com/HirakawaTakahito/22060017_hirakawa#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^10.5.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "ngrok": "^5.0.0-beta.2"
+  }
+}
