@@ -1,0 +1,56 @@
+<form id="form">
+
+<h2>服を登録</h2>
+
+<label>カテゴリ</label>
+<select id="category">
+  <option>トップス</option>
+  <option>ボトムス</option>
+</select>
+
+<h3>カラー</h3>
+<div class="color-group">
+  <label><input type="checkbox" value="赤">赤</label>
+  <label><input type="checkbox" value="青">青</label>
+  <label><input type="checkbox" value="黄色">黄色</label>
+  <label><input type="checkbox" value="緑">緑</label>
+  <label><input type="checkbox" value="黒">黒</label>
+  <label><input type="checkbox" value="白">白</label>
+</div>
+
+<h3>トーン</h3>
+<div class="tone-group">
+  <label><input type="radio" name="tone" value="原色">はっきり</label>
+  <label><input type="radio" name="tone" value="明清色">ふんわり</label>
+  <label><input type="radio" name="tone" value="脱色">くすみ</label>
+  <label><input type="radio" name="tone" value="安静色">深み</label>
+  <label><input type="radio" name="tone" value="無彩色">白黒</label>
+</div>
+
+<label>系統</label>
+<input id="style" placeholder="例：アメカジ">
+
+<label>柄</label>
+<input id="design">
+
+<label>素材</label>
+<input id="material">
+
+<label>シルエット</label>
+<select id="fit">
+  <option>タイト</option>
+  <option>普通</option>
+  <option>ワイド</option>
+</select>
+
+<label>丈</label>
+<select id="length">
+  <option>ショート</option>
+  <option>ミドル</option>
+  <option>ロング</option>
+</select>
+
+<button type="submit">保存</button>
+</form>
+
+<script src="app.js"></script>
